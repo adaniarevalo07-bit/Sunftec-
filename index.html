@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunftec</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at 20% 30%, #1a1f3a, transparent),
+              radial-gradient(circle at 80% 70%, #0f172a, transparent),
+              linear-gradient(180deg, #020617, #000000);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+.logo-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-top img {
+  width: 40px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero img {
+  width: 180px;
+  filter: drop-shadow(0 0 20px orange);
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero p {
+  color: #cbd5f5;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+  width: 250px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255,140,0,0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo-top">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA..." />
+    <strong>Sunftec</strong>
+  </div>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA..." />
+  <h1>Sunftec</h1>
+  <p>Seguridad digital y VPN avanzada</p>
+</section>
+
+<div class="cards">
+  <div class="card">
+    <h3>🔒 Seguridad</h3>
+    <p>Protegemos tus sistemas y datos.</p>
+  </div>
+
+  <div class="card">
+    <h3>🌐 VPN</h3>
+    <p>Navega seguro y privado en todo momento.</p>
+  </div>
+</div>
+
+<footer>
+  © 2026 Sunftec
+</footer>
+
+</body>
+</html>
